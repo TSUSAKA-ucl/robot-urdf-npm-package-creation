@@ -1,0 +1,3 @@
+[submodule "ros2/src/DOBOT_6Axis_ROS2_V4"]
+	path = ros2/src/DOBOT_6Axis_ROS2_V4
+	url = https://github.com/Dobot-Arm/DOBOT_6Axis_ROS2_V4.git
