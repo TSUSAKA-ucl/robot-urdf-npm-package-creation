@@ -1,0 +1,4 @@
+*.STL
+*.stl
+*.dae
+!base_link.STL

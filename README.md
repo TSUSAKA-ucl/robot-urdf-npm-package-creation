@@ -18,15 +18,15 @@ cd ..
 # 
 # nova2 ros2 package 作成
 cd ros2/
-colcon build
+colcon build --packages-select dobot_rviz
 . install/setup.bash 
 cd ..
 #
 # npmパッケージ用mesh作成
-Meshes=(`./resolve_ros2_paths.sh linkmap.json`)
+Meshes=(`./resolve_ros2_paths.sh linkmap.json | sort -u`)
 cd meshes/
 for path in "${Meshes[@]}"; do ln -s "$path" . ; done
-for file in *.STL *.stl *.DAE *.dae; do   ../a/convert-to-gltf.sh "$file"; done
+../a/convert-to-gltf.sh *.STL *.stl
 cd ..
 #
 # npmパッケージ作成 & publish

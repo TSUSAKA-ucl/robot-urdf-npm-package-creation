@@ -1,0 +1,30 @@
+{
+  "name": "@ucl-nuee/iai-nova2",
+  "version": "1.0.1",
+  "files": [
+"public/iai-nova2/Link1.bin",
+"public/iai-nova2/Link1.gltf",
+"public/iai-nova2/Link2.bin",
+"public/iai-nova2/Link2.gltf",
+"public/iai-nova2/Link3.bin",
+"public/iai-nova2/Link3.gltf",
+"public/iai-nova2/Link4.bin",
+"public/iai-nova2/Link4.gltf",
+"public/iai-nova2/Link5.bin",
+"public/iai-nova2/Link5.gltf",
+"public/iai-nova2/Link6.bin",
+"public/iai-nova2/Link6.gltf",
+"public/iai-nova2/RCP6-SA8R-WA-56SP-5-1100-P4-P-ML-W_8501050_rot.bin",
+"public/iai-nova2/RCP6-SA8R-WA-56SP-5-1100-P4-P-ML-W_8501050_rot.gltf",
+"public/iai-nova2/base_link.bin",
+"public/iai-nova2/base_link.gltf",
+"public/iai-nova2/linkmap.json",
+"public/iai-nova2/update.json",
+"public/iai-nova2/urdf.json"
+  ],
+  "description": "",
+  "keywords": [],
+  "author": "Created automatically from URDF",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1"
+}
